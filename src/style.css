@@ -1,0 +1,89 @@
+:root {
+  --bg: #fbfaf7;
+  --fg: #1f2328;
+  --muted: #5d6470;
+  --line: #e3e0d8;
+  --card: #ffffff;
+  --accent: #0b6e5f;
+  --a: #0b6e5f;
+  --b: #9a5b00;
+  --c: #4a5568;
+  --d: #6b4c3b;
+  --quote: #f2efe7;
+  --ex: #fff4d6;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171a;
+    --fg: #e6e6e3;
+    --muted: #a0a6ae;
+    --line: #2d3137;
+    --card: #1c1f23;
+    --accent: #5cc5b0;
+    --a: #5cc5b0;
+    --b: #e0a341;
+    --c: #a6b0bf;
+    --d: #c99a80;
+    --quote: #20242a;
+    --ex: #3a3220;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.7 -apple-system, "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+}
+a { color: var(--accent); }
+.wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+.top { border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: center; justify-content: space-between; padding-top: 12px; padding-bottom: 12px; }
+.brand { font-weight: 700; color: var(--fg); text-decoration: none; }
+nav a { margin-left: 16px; text-decoration: none; }
+nav a:first-child { margin-left: 0; }
+h1 { font-size: 1.7rem; line-height: 1.3; margin: 32px 0 8px; }
+h2 { font-size: 1.2rem; margin: 36px 0 12px; }
+h3 { font-size: 1rem; margin: 0; }
+.lead { font-size: 1.1rem; color: var(--muted); }
+.sub, .hint, .meta, .note { color: var(--muted); font-size: 0.9rem; }
+blockquote { margin: 12px 0; padding: 12px 16px; background: var(--quote); border-left: 3px solid var(--line); }
+blockquote p { margin: 0 0 6px; }
+blockquote.std { border-left-color: var(--accent); }
+cite { display: block; font-style: normal; font-size: 0.85rem; color: var(--muted); }
+table { width: 100%; border-collapse: collapse; margin: 8px 0 16px; font-size: 0.95rem; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; white-space: nowrap; }
+td.num, .num { font-variant-numeric: tabular-nums; font-weight: 700; }
+.notice { padding: 12px 16px; border: 1px dashed var(--line); background: var(--card); }
+.tier { display: inline-block; padding: 1px 8px; border-radius: 4px; font-size: 0.85rem; color: #fff; white-space: nowrap; }
+.tier-A { background: var(--a); }
+.tier-B { background: var(--b); }
+.tier-C { background: var(--c); }
+.tier-D { background: var(--d); }
+@media (prefers-color-scheme: dark) { .tier { color: #111; } }
+.badge { display: inline-block; padding: 0 6px; border: 1px solid var(--line); border-radius: 4px; font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
+.badge.ok { border-color: var(--a); color: var(--a); }
+.badge.warn { border-color: var(--b); color: var(--b); }
+.badge.ex { background: var(--ex); color: var(--fg); }
+tr.example td { background: var(--ex); }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin: 12px 0; }
+.card header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+.card.doc { background: var(--quote); }
+.card.example { border: 2px dashed var(--b); }
+.exbar { margin: -4px 0 8px; font-weight: 700; color: var(--b); }
+.big { font-size: 1.05rem; }
+.big .num { font-size: 1.6rem; }
+.steps { list-style: none; padding: 0; margin: 8px 0; }
+.steps li { display: flex; gap: 10px; align-items: baseline; padding: 4px 0; }
+.click { flex: none; display: inline-grid; place-items: center; width: 1.6em; height: 1.6em; border-radius: 50%; background: var(--accent); color: var(--bg); font-size: 0.85rem; font-weight: 700; }
+.click.swipe, .click.start, .click.end { background: var(--line); color: var(--fg); }
+.path b { font-weight: 600; }
+.shots { display: flex; gap: 8px; overflow-x: auto; padding: 4px 0; }
+.shots img { height: 220px; border: 1px solid var(--line); border-radius: 6px; }
+.fix { padding-left: 20px; }
+.foot { margin-top: 48px; padding-top: 16px; padding-bottom: 32px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
+@media (max-width: 600px) {
+  h1 { font-size: 1.4rem; }
+  table.rank th:nth-child(5), table.rank td:nth-child(5) { display: none; }
+}

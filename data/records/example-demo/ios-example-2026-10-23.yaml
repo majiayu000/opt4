@@ -1,0 +1,21 @@
+# 虚构数据，只用于本地预览实测卡片的样式。正式构建不会渲染。
+app: example-demo
+source: example
+scope: main
+platform: ios
+app_version: "0.0.1"
+os_version: iOS 0.0
+device: 示例机型
+tested_on: 2026-10-23
+tester: example
+default_state: unknown
+option_label: 示例开关
+outcome: in_app_toggle
+steps:
+  - { action: tap, target: 左上角菜单 }
+  - { action: tap, target: 头像 }
+  - { action: tap, target: 设置 }
+  - { action: swipe, target: 向下滚动到“数据” }
+  - { action: tap, target: 数据管理 }
+clicks: 4
+note: 虚构示例，不代表任何真实 App。

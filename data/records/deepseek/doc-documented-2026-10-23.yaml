@@ -1,0 +1,11 @@
+app: deepseek
+source: documented
+scope: main
+option_label: 数据用于优化体验
+outcome: in_app_toggle
+doc_url: https://cdn.deepseek.com/policies/zh-CN/deepseek-privacy-policy.html
+doc_quote: 您可以通过点击头像区域--选择“设置”--选择“数据管理”--关闭“数据用于优化体验”，来拒绝您的数据用于模型训练。
+doc_updated: 2026-02-10
+retrieved_on: 2026-10-23
+doc_path: [头像区域, 设置, 数据管理, 数据用于优化体验]
+note: 文档没有写“头像区域”在主界面的哪个位置。

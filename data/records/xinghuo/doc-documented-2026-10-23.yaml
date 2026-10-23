@@ -1,0 +1,11 @@
+app: xinghuo
+source: documented
+scope: main
+option_label: 无
+outcome: contact_only
+doc_url: https://www.xfyun.cn/doc/spark/PrivacyPolicy.html
+doc_quote: 如您不同意我们按上述方式处理您的个人信息，可通过本政策第十一章提供的联系方式向我们进行反馈。
+doc_updated: 2025-10-22
+retrieved_on: 2026-10-23
+contact: dpo@iflytek.com
+note: 这是网页版登录框链接的《SparkDesk隐私政策》，App 内的政策是否为同一份需要实测时核对。

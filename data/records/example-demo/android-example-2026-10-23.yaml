@@ -1,0 +1,22 @@
+# 虚构数据，只用于本地预览实测卡片的样式。正式构建不会渲染。
+app: example-demo
+source: example
+scope: main
+platform: android
+app_version: "0.0.1"
+os_version: Android 0
+device: 示例机型
+tested_on: 2026-10-23
+tester: example
+default_state: unknown
+option_label: 示例开关
+outcome: in_app_toggle
+steps:
+  - { action: tap, target: 我的 }
+  - { action: tap, target: 设置 }
+  - { action: tap, target: 隐私 }
+  - { action: tap, target: 个人信息管理 }
+  - { action: tap, target: 数据使用 }
+  - { action: tap, target: 模型改进 }
+clicks: 6
+note: 虚构示例，不代表任何真实 App。

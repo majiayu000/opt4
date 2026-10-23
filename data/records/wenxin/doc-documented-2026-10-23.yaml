@@ -1,0 +1,10 @@
+app: wenxin
+source: documented
+scope: main
+option_label: 无
+outcome: not_stated
+doc_url: https://aisearch.cdn.bcebos.com/homepage/privacy/newest-term.html
+doc_quote: 当您使用我们的服务时，我们会自动接收您输入的信息（包括文字、图片、语音、视频等）并留存相关网络日志，以使用这些信息向您输出内容，提供文心助手服务，及维护信息安全。
+doc_updated: 2025-11-13
+retrieved_on: 2026-10-23
+note: 《百度文心助手使用规则》没有提到训练用途和关闭方式；规则称同时适用《百度隐私政策总则》，那份文件尚未逐条核对。

@@ -1,0 +1,10 @@
+app: qianwen
+source: documented
+scope: voice
+option_label: 改进音视频通话服务
+outcome: in_app_toggle
+doc_url: https://terms.alicdn.com/legal-agreement/terms/privacy_policy_full/20231011201849846/20231011201849846.html
+doc_quote: 如果您不希望您输入的语音信息或打电话功能下的视频信息用于模型评测或功能优化，可通过“设置”-"权限管理"关闭“改进音视频通话服务”。
+doc_updated: 2026-09-30
+retrieved_on: 2026-10-23
+doc_path: [设置, 权限管理, 改进音视频通话服务]

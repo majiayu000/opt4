@@ -1,0 +1,10 @@
+app: kimi
+source: documented
+scope: main
+option_label: 无
+outcome: contact_only
+doc_url: https://www.kimi.com/user/agreement/userPrivacy?version=v2
+doc_quote: 如您不希望您的内容被用于模型训练，您可以通过本协议第11节所载的联系方式联系我们的客服并提出要求；我们将在验证您的身份后，停止将您的内容用于模型训练。
+doc_updated: 2026-08-24
+retrieved_on: 2026-10-23
+contact: 客服；政策第 11 节列出 support@moonshot.cn

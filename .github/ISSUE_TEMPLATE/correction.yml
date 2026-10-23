@@ -1,0 +1,23 @@
+name: 更正
+description: 记录有误、App 已改版，或厂商代表申请更正。所有更正公开处理。
+title: "[更正] "
+labels: [correction]
+body:
+  - type: input
+    id: app
+    attributes: { label: App 名称 }
+    validations: { required: true }
+  - type: input
+    id: record
+    attributes: { label: 涉及的记录或页面链接 }
+  - type: textarea
+    id: what
+    attributes:
+      label: 哪里不对，正确的是什么
+      description: 请附 App 版本号、平台和截图；如引用官方文档，请给链接。
+    validations: { required: true }
+  - type: dropdown
+    id: who
+    attributes:
+      label: 你的身份
+      options: [普通用户, 厂商代表, 其他]

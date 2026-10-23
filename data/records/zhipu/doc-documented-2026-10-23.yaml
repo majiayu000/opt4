@@ -1,0 +1,11 @@
+app: zhipu
+source: documented
+scope: main
+option_label: 数据使用开关
+outcome: in_app_toggle
+doc_url: https://chatglm.cn/legal/privacyPolicySingle
+doc_quote: 如果您不希望您的数据用于上述用途，可以通过：“（1）APP：点击底部第三个Tab—设置—数据管理—数据使用开关（2）PC：右上角个人头像—数据管理—数据使用开关”来关闭此设置。
+doc_updated: 2026-08-05
+retrieved_on: 2026-10-23
+doc_path: [底部第三个Tab, 设置, 数据管理, 数据使用开关]
+note: 原文“上述用途”指匿名化处理后的研究、统计分析或产品改进（如模型优化迭代）。

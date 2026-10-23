@@ -1,0 +1,10 @@
+app: yuanbao
+source: documented
+scope: voice
+option_label: 语音功能改进计划
+outcome: in_app_toggle
+doc_url: https://privacy.qq.com/document/preview/eb9be56572ab4886b6ca124e72abf413
+doc_quote: 特别地，即使您加入体验优化计划，对于您输入的语音信息，您也可以通过语音功能改进计划功能（具体路径为"设置"-"数据管理"-"语音功能改进计划"）来管理您的授权。
+doc_updated: 2026-10-23
+retrieved_on: 2026-10-23
+doc_path: [设置, 数据管理, 语音功能改进计划]

@@ -1,0 +1,49 @@
+name: 新增实测
+description: 不会提 PR 也没关系，把你点的路径和截图贴在这里，维护者帮你录入。
+title: "[实测] "
+labels: [measurement]
+body:
+  - type: input
+    id: app
+    attributes: { label: App 名称 }
+    validations: { required: true }
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 平台
+      options: [iOS, Android, HarmonyOS]
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes: { label: App 版本号（App 内“关于”页）, placeholder: "例如 1.4.2" }
+    validations: { required: true }
+  - type: input
+    id: os
+    attributes: { label: 系统版本和机型, placeholder: "例如 iOS 18.6 · iPhone 15" }
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes:
+      label: 从冷启动主界面开始，每一步点了什么
+      description: 一行一步，照屏幕上的文字写。滑动也写上，标“滑动”。最后写开关的名称。
+      placeholder: |
+        1. 点 左上角菜单
+        2. 点 头像
+        3. 点 设置
+        4. 滑动 到底部
+        5. 点 数据管理
+        开关：数据用于优化体验
+    validations: { required: true }
+  - type: textarea
+    id: shots
+    attributes:
+      label: 截图
+      description: 每一步一张，头像、昵称、手机号、对话内容请先打码。
+    validations: { required: true }
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 截图中的个人信息已打码
+          required: true

@@ -1,0 +1,11 @@
+app: yuanbao
+source: documented
+scope: main
+option_label: 体验优化计划
+outcome: in_app_toggle
+doc_url: https://privacy.qq.com/document/preview/eb9be56572ab4886b6ca124e72abf413
+doc_quote: 您可主动加入我们的体验优化计划（具体路径为"设置"-"数据管理"-"体验优化计划"）
+doc_updated: 2026-10-23
+retrieved_on: 2026-10-23
+doc_path: [设置, 数据管理, 体验优化计划]
+note: 文档措辞是“主动加入”，默认状态需在新账号上实测确认。

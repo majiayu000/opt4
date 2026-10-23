@@ -1,0 +1,11 @@
+app: doubao
+source: documented
+scope: main
+option_label: 帮助模型改进效果
+outcome: in_app_toggle
+doc_url: https://www.doubao.com/legal/privacy
+doc_quote: 如果豆包个人版的用户不希望将输入或提供的内容数据用于模型训练和优化，可以通过”设置-隐私与权限-帮助模型改进效果”来关闭此设置
+doc_updated: 2026-09-10
+retrieved_on: 2026-10-23
+doc_path: [设置, 隐私与权限, 帮助模型改进效果]
+note: 文档没有写“设置”在主界面的哪个位置。

@@ -1,0 +1,11 @@
+{
+  "name": "opt4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "bun src/validate.ts",
+    "build": "bun src/build.ts",
+    "serve": "bun src/serve.ts",
+    "test": "bun test"
+  }
+}

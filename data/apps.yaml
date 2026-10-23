@@ -1,0 +1,50 @@
+# App 名单。字段说明见 docs/design.md 第 2 节。
+# privacy_contact 照抄隐私政策里公布的个人信息联系渠道。
+
+- id: deepseek
+  name: DeepSeek
+  vendor: 杭州深度求索人工智能基础技术研究有限公司
+  policy_url: https://cdn.deepseek.com/policies/zh-CN/deepseek-privacy-policy.html
+  privacy_contact: privacy@deepseek.com
+
+- id: doubao
+  name: 豆包
+  vendor: 北京春田知韵科技有限公司
+  policy_url: https://www.doubao.com/legal/privacy
+  privacy_contact: Dataprivacy@bytedance.com
+
+- id: yuanbao
+  name: 腾讯元宝
+  vendor: 深圳市腾讯计算机系统有限公司
+  policy_url: https://privacy.qq.com/document/preview/eb9be56572ab4886b6ca124e72abf413
+  privacy_contact: 腾讯隐私保护平台、腾讯客服，或邮寄至腾讯滨海大厦数据合规与隐私保护部（见政策第 10 节）
+
+- id: zhipu
+  name: 智谱清言
+  vendor: 北京智谱华章科技股份有限公司
+  policy_url: https://chatglm.cn/legal/privacyPolicySingle
+  privacy_contact: chatglm@aminer.cn
+
+- id: kimi
+  name: Kimi
+  vendor: 北京月之暗面科技股份有限公司
+  policy_url: https://www.kimi.com/user/agreement/userPrivacy?version=v2
+  privacy_contact: support@moonshot.cn
+
+- id: qianwen
+  name: 千问
+  vendor: 上海智信普惠科技有限公司
+  policy_url: https://terms.alicdn.com/legal-agreement/terms/privacy_policy_full/20231011201849846/20231011201849846.html
+  privacy_contact: privacy_zx@service.alibaba.com
+
+- id: wenxin
+  name: 文心助手
+  vendor: 北京百度网讯科技有限公司
+  policy_url: https://aisearch.cdn.bcebos.com/homepage/privacy/newest-term.html
+  privacy_contact: 见《百度隐私政策总则》 https://privacy.baidu.com/policy/PrivacyPolicy
+
+- id: xinghuo
+  name: 讯飞星火
+  vendor: 科大讯飞股份有限公司
+  policy_url: https://www.xfyun.cn/doc/spark/PrivacyPolicy.html
+  privacy_contact: dpo@iflytek.com

@@ -1,0 +1,10 @@
+app: qianwen
+source: documented
+scope: main
+option_label: 无
+outcome: contact_only
+doc_url: https://terms.alicdn.com/legal-agreement/terms/privacy_policy_full/20231011201849846/20231011201849846.html
+doc_quote: 如果您不希望您的输入内容用于模型优化，请参照本政策第九条联系我们
+doc_updated: 2026-09-30
+retrieved_on: 2026-10-23
+contact: privacy_zx@service.alibaba.com（注明与“千问”有关）
